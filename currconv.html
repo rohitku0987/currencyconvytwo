@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="currconv.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <label for="amount">Enter Amount</label>
+                <br>
+                <input type="text" id="amount" placeholder="AMOUNT" value="1">
+                <div class="drop-list">
+                    <div class="from">
+                        <p>from</p>
+                        <div class="select-box">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png" width="100%">
+                            <select name="opt" id="">
+                                <option value="USD">USD</option>
+                                <option value="INR">INR</option>
+                                <option value="NPR">NPR</option>
+                                <option value="PKR">PKR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="icon">&#8594</div>
+                    <div class="to">
+                        <p>to</p>
+                        <div class="select-box">
+                            <img src="https://media.istockphoto.com/vectors/flag-of-india-vector-id519611160?k=20&m=519611160&s=612x612&w=0&h=n8mmywhzMzcrRI4I50uKYEFVeS4wDfpOGQGEaCK6YPw=" width="100%">
+                            <select name="opt" id="">
+                                <option value="USD">USD</option>
+                                <option value="INR">INR</option>
+                                <option value="NPR">NPR</option>
+                                <option value="PKR">PKR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button>Get Exchange Rate</button>
+        </form>
+
+    </div>
+</body>
+</html>
